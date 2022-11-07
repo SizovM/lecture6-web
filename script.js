@@ -1,7 +1,7 @@
 // Додаємо слухач кліку: метод, що буде виконуватися при кліку на кнопку
 // "Додати задачу"
 document.getElementById('addListItem').addEventListener('click', () => {
-  // Знаходимо тектове поле задачи
+  // Знаходимо тектове поле задачі
   let listItemContentEl = document.getElementById('newItemInput');
   // Беремо введене значення
   let listItemContentText = listItemContentEl.value;
@@ -31,10 +31,10 @@ document.getElementById('loadItems').addEventListener('click', () => {
   xhttp.send();
 })
 
-// "Видалити всі нагадування"
+
 document.getElementById('deleteAllItems').addEventListener('click', () => {
   // Знаходимо елемент "Мій список"
   let myList = document.getElementById('myList');
-  // Видаляємо (очищуємо) увесь вміст
-  myList.innerHTML = '';
+  // Вичищаємо елемент
+ myList.innerHTML = '';
 })
