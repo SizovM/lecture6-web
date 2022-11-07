@@ -8,3 +8,43 @@ h1 {
   padding: 20px;                          /* відступ від границі елементу до його контенту*/
   margin: 20px;                           /* відступ від границі елементу до іншого елементу */
 }
+
+.card {
+  margin-right: auto;
+  width: 500px;
+  padding: 30px;
+  background: rgba(0,0,0,.7);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius: 20px;
+}
+.card img {
+  width:50%;
+  height:50%;
+  align-self: center;
+}
+.left {
+    text-align: left;
+}
+
+.card a {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  color: #FF0000;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 30px;
+  letter-spacing: 4px
+}
+.card h2 {
+  margin-right: auto;
+  padding: 10px;
+  color: #0492c2;
+  text-align: left;
+  border-bottom: 1px solid #0492c2;
+
+}
